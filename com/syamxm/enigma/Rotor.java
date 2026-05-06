@@ -23,23 +23,23 @@ public class Rotor {
         switch (name) {
             case "I":
                 rotor = new Rotor("I", "EKMFLGDQVZNTOWYHXUSPAIBRCJ");
-                rotor.setTurnoverLetter('M');
+                rotor.setTurnoverLetter('R');
                 break;
             case "II":
                 rotor = new Rotor("II", "AJDKSIRUXBLHWTMCQGZNPYFVOE");
-                rotor.setTurnoverLetter('I');
+                rotor.setTurnoverLetter('F');
                 break;
             case "III":
                 rotor = new Rotor("III", "BDFHJLCPRTXVZNYEIWGAKMUSQO");
-                rotor.setTurnoverLetter('A');
+                rotor.setTurnoverLetter('W');
                 break;
             case "IV":
                 rotor = new Rotor("IV", "ESOVPZJAYQUIRHXLNFTGKDCMWB");
-                rotor.setTurnoverLetter('C');
+                rotor.setTurnoverLetter('K');
                 break;
             case "V":
                 rotor = new Rotor("V", "VZBRGITYUPSDNHLXAWMJQOFECK");
-                rotor.setTurnoverLetter('U');
+                rotor.setTurnoverLetter('A');
                 break;
             default:
                 rotor = new Rotor("Identity", "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
