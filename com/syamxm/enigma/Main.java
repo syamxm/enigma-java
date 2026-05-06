@@ -11,7 +11,7 @@ public class Main {
         Enigma enigmaMachine = new Enigma(
                 new String[] { "I", "II", "III" },
                 "B",
-                "AAA",
+                "KET",
                 "AAA",
                 "");
         CustomEnigma customEnigmaMachine = new CustomEnigma(
